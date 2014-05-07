@@ -9,8 +9,8 @@ $(function() {
 	$('#skeleton').click(function() {
 		$('body').css('background-image', 'url(images/skeleton.jpg)');
 		setTimeout(function() {
-			$('body').css('background-image', 'url(...)');
-		}, 150);
+			$('body').css('background-image', 'url(images/stars.png)');
+		}, 200);
 	});
 	
 });
