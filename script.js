@@ -1,9 +1,7 @@
 $(function() {
 	
 	$('#notepad').click(function() {
-		$('#dad').fadeIn('slow', function() {
-			$(this).fadeOut('slow');
-		});
+		$('#dad').fadeIn('slow');
 	});
 	
 	$('#skeleton').click(function() {
